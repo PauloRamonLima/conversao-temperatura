@@ -38,7 +38,7 @@ jobs:
         run: mocha src/test/convert.js 
       
       - name: Logando Docker
-        run : Docker login
+        run : docker login
       
       - name: Construção da imagem Docker
         uses: docker/build-push-action@v3.1.1
