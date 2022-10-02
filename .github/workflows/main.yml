@@ -51,6 +51,8 @@ jobs:
           file: ./src/Dockerfile
           push: true
           tags: |
-            pauloramon123/aula-conversao-temperatura:v1
+            pauloramon123/aula-conversao-temperatura:${{github.run_number}}
+            pauloramon123/aula-conversao-temperatura:latest
+            
 
       
